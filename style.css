@@ -1,0 +1,88 @@
+
+
+* {
+    font-size: 1.3rem;
+    text-align: center;
+    margin: 2rem 1rem;
+    
+}
+body {
+    background-color: slategrey;
+}
+
+#new-quote:hover {
+    color: lawngreen;
+}
+
+.buttons {
+    width: 100%;
+    margin: auto;
+    display: block;
+    margin: 1rem;
+}
+
+#new-quote {
+ margin-left: 10%;
+}
+
+
+#tweet-quote {
+    float: right;
+    position: relative;
+    bottom: 3.5rem;
+    right: 3rem;
+    
+}
+
+#tweet-quote:hover .fab {
+    color: lightseagreen;
+    
+}
+
+#tweet-quote .fab {
+    color: rgb(42, 109, 216);
+
+}
+
+footer {
+    margin: 0 auto;
+   
+}
+
+.footer{
+    color: rgb(36, 98, 114);
+    font-size: .8rem;
+    width: 30%;
+    border-radius: 1rem;
+    text-align: center;
+    align-self: center;
+    margin: 0 auto;
+}
+
+.footer .text-light {
+    text-decoration: none;
+    font-size: 1rem;
+    
+}
+
+.quote-author {
+    color: slategray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: .5rem;
+    text-align: right;
+    margin: 0 auto;
+}
+
+.quote-text {
+    width: 90%;
+    height: 30%;
+    
+}
+
+#quote-box {
+    background-color: lemonchiffon;
+    border-radius: 1rem;
+    padding-bottom: 2rem;
+    width: 50%;
+    margin: 5rem auto 0 auto ;
+}
